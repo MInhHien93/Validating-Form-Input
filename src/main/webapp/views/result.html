@@ -1,8 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Congratulations</title>
+    <title>PhoneNumber</title>
 </head>
 <body>
-<h1>Congratulations! You are old enough to sign up for this site.</h1>
+<h1>Your phone <span th:text="${phoneNumber.number}"></span></h1>
 </body>
 </html>
